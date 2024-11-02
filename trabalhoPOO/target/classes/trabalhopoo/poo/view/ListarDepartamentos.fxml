@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="263.0" prefWidth="342.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="trabalhopoo.poo.controller.ListaDepartamentoController">
+    <ListView fx:id="listViewDepartamentos" layoutX="21.0" layoutY="14.0" prefHeight="200.0" prefWidth="300.0" />
+    <Button layoutX="21.0" layoutY="224.0" onAction="#voltarOnAction" text="Voltar" />
+</AnchorPane>

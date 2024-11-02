@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="145.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhopoo.poo.controller.IncluiDepartamentoController">
+    <children>
+        <Label alignment="CENTER" text="Cadastrar Departamento">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label text="Nome do Departamento" />
+        <TextField fx:id="txtNomeDep" />
+        <HBox spacing="10.0">
+            <children>
+                <Button fx:id="btnConfirmaDep" onAction="#btnConfirmaDepOnAction" text="Confirmar" />
+                <Button fx:id="btnVoltarDep" onAction="#btnVoltarDepOnAction" text="Voltar" />
+            </children>
+            <padding>
+                <Insets top="15.0" />
+            </padding>
+        </HBox>
+    </children>
+    <padding>
+        <Insets left="15.0" right="15.0" top="15.0" />
+    </padding>
+</VBox>

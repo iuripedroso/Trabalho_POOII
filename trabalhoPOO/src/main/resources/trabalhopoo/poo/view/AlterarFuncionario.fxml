@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="trabalhopoo.poo.controller.AlterarFuncionarioController" spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+
+    <!-- Título da Janela -->
+    <Label text="Alterar Funcionário" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+    <!-- Campo para inserir o ID do funcionário -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="ID do Funcionário:" />
+        <TextField fx:id="txtIdFuncionario" promptText="Digite o ID" prefWidth="200"/>
+    </HBox>
+
+    <!-- Campo para editar o nome do funcionário -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Nome do Funcionário:" />
+        <TextField fx:id="txtNomeFuncionario" promptText="Digite o nome" prefWidth="200"/>
+    </HBox>
+
+    <!-- ComboBox para selecionar o departamento -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Departamento:" />
+        <ComboBox fx:id="cmbDepartamentos" prefWidth="200"/>
+    </HBox>
+
+    <!-- Botão para salvar as alterações -->
+    <Button text="Salvar Alterações" onAction="#salvarAlteracoes" style="-fx-font-size: 14px; -fx-padding: 5 15;" />
+
+</VBox>
