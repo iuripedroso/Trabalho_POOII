@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhopoo.poo.controller.ApresentacaoController">
+    <Text fx:id="textoApresentacao" text="    Bem-vindo ao sistema!" layoutX="50.0" layoutY="100.0" style="-fx-font-size: 24px; -fx-text-fill: #0000FF;" textAlignment="CENTER" />
+</AnchorPane>

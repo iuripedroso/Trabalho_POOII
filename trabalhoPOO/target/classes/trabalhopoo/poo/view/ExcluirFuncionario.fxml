@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="155.0" prefWidth="309.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="trabalhopoo.poo.controller.ExcluirFuncionarioController">
+    <children>
+        <Label layoutX="100" layoutY="20" text="Excluir Funcionário" />
+        <Label layoutX="30" layoutY="70" text="ID do Funcionário:" />
+        <TextField fx:id="txtIdFuncionario" layoutX="150" layoutY="65" />
+        <Button layoutX="100" layoutY="120" onAction="#btnExcluirOnAction" text="Excluir" />
+        <Button layoutX="200" layoutY="120" onAction="#btnVoltarOnAction" text="Voltar" />
+    </children>
+</AnchorPane>

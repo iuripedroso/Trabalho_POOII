@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="185.0" prefWidth="262.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabalhopoo.poo.controller.IncluiFuncionarioController">
+    <children>
+        <Label alignment="CENTER" text="Cadastrar Funcionário">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label text="Nome do Funcionário" />
+        <TextField fx:id="txtNomeFunc" />
+        <Label text="Departamento" />
+        <ComboBox fx:id="comboDepartamento" />
+        <HBox spacing="10.0">
+            <children>
+                <Button fx:id="btnConfirmaFunc" onAction="#btnConfirmaFuncOnAction" text="Confirmar" />
+                <Button fx:id="btnVoltarFunc" onAction="#btnVoltarFuncOnAction" text="Voltar" />
+            </children>
+            <padding>
+                <Insets top="15.0" />
+            </padding>
+        </HBox>
+    </children>
+    <padding>
+        <Insets left="15.0" right="15.0" top="15.0" />
+    </padding>
+</VBox>
