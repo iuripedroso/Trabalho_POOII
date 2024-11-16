@@ -1,0 +1,1 @@
+Este projeto é uma aplicação desenvolvida em Java utilizando JavaFX como framework de interface gráfica. O sistema implementa funcionalidades básicas de CRUD (Criar, Ler, Atualizar e Deletar) para gerenciar funcionários e departamentos de diferentes empresas. O projeto segue a arquitetura MVC (Model-View-Controller) e utiliza o PostgreSQL como banco de dados.
